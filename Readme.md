@@ -14,6 +14,7 @@ Public API Endpoints
     POST /testscores/:id 
     it accept three property first_round,second_round ,third_round 
     
+    
 3. Show Candidate 
     GET /student
     return JSON response which has  name,email of all student 
@@ -45,6 +46,7 @@ RESPONSE
     "__v": 0
   }
 ]   
+
 
 4. Show a particular Candidate 
     GET /student/:id 
@@ -111,6 +113,9 @@ RESPONSE
     "__v": 0
   }
 ]
+
+
+
 6. Show Score of particular Candidate
     GET /scores/:id 
     return JSON response  it' require ID of candidate 
@@ -145,6 +150,8 @@ RESPONSE
   "name": "test1",
   "email": "test@gmail.com"
 }
+
+
 8. Show the Average Score in every Round
     GET /scores/average 
     return JSON response 
