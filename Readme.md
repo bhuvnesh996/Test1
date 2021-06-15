@@ -63,6 +63,9 @@ RESPONSE
   "updatedAt": "2021-06-14T12:21:52.463Z",
   "__v": 0
 }
+
+
+
 5. Show Scores of ALL Candidate 
     GET /scores 
     return JSON response which have Candidate name and it's scores 
